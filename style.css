@@ -1,0 +1,72 @@
+
+body {
+    background-image: url("GIF.gif");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+header {
+    width: 100%;
+    text-align: center;
+}
+header .logo {
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+.prompt-input {
+    width: 60%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.prompt-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1cd9d3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.prompt-button:hover {
+    background-color: #8fdad8;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.generated-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+footer {
+    width: 100%;
+    background-color: #8fdad8;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer-content p {
+    margin: 0;
+    font-size: 0.9rem;
+}
